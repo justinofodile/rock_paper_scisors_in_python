@@ -25,19 +25,13 @@ while True:
     elif user_input == 'scissors' and computer_picked == 'rock':
         print("You won!")
         user_win +=1
-    elif user_input == 'rock' and computer_picked == 'rock':
-        print("There is a tie!")
-        ties += 1
-    elif user_input == 'paper' and computer_picked == 'paper':
-        print("There is a tie!")
-        ties += 1
     elif user_input == computer_picked:
         print("There is a tie!")
         ties += 1
     else:
         print("Computer won!")
         computer_win += 1
-print("User won {} times".format(user_win))
+print("You won {} times".format(user_win))
 print("Computer won {} times".format(computer_win))
 print("Computer and user had {} times".format(ties))
 
