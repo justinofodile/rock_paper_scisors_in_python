@@ -31,7 +31,7 @@ while True:
     else:
         print("Computer won!")
         computer_win += 1
-print("You won {} times".format(user_win))
-print("Computer won {} times".format(computer_win))
+print("You won {} times. Weldone".format(user_win))
+print("Computer won {} times. Try harder next time".format(computer_win))
 print("Computer and user had {} times".format(ties))
 
